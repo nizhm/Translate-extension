@@ -1,2 +1,2 @@
 # Transl
-A broswer extension for traslating word and paragraph
+A browser extension for translating word and paragraph
