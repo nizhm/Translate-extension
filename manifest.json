@@ -4,7 +4,10 @@
   "version": "1.0",
   "description": "A browser extension for translating word and paragraph",
   "icons": {
-    "32": "images/icon.png"
+    "16": "images/main_icon.png",
+    "32": "images/main_icon.png",
+    "48": "images/main_icon.png",
+    "128": "images/main_icon.png"
   },
   "content_scripts": [
     {
