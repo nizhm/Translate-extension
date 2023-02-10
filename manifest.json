@@ -1,14 +1,14 @@
 {
   "manifest_version": 3,
-  "name": "Reading time",
+  "name": "Transl",
   "version": "1.0",
-  "description": "Add the reading time to Chrome Extension documentation articles",
+  "description": "A browser extension for translating word and paragraph",
   "icons": {
     "32": "images/icon.png"
   },
   "content_scripts": [
     {
-      "js": ["scripts/content.js"],
+      "js": ["main.js"],
       "matches": [
         "https://developer.chrome.com/docs/extensions/*",
         "https://developer.chrome.com/docs/webstore/*"
