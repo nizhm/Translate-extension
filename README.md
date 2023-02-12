@@ -8,10 +8,10 @@ A browser extension for translating word and paragraph
 
 ![img.png](images/readme/1.1_img2.png)
 
-### 1.2 Open browser's extension management page and enable developer mode
+### 1.2 Open browser's extensions management page and enable developer mode
 ![img.png](images/readme/1.2_img1.png)
 
-### 1.3 To load local extension by click 'Load unpacked'
+### 1.3 To load the local extension by click 'Load unpacked'
 ![img.png](images/readme/1.3_img1.png)
 
 ![img.png](images/readme/1.3_img2.png)
