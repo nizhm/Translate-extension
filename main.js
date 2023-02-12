@@ -73,7 +73,9 @@ const initTranslate = () => {
     const translate = selectionText.trim()
     // 空字符或者字母、连字符组成的字符串识别为单词
     const isWord = translate === '' || (/^[a-zA-Z-]*$/g).test(translate)
-    const url = (isWord ? dicPrefix : paragraphTranslatePrefix) + translate
+    const url = isWord ?
+      dicPrefix + translate.toLowerCase() :
+      paragraphTranslatePrefix + translate
 
     await chrome.windows.create({
       width: 1000,
