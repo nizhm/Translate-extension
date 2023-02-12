@@ -76,7 +76,7 @@ const initTranslate = () => {
     const url = (isWord ? dicPrefix : paragraphTranslatePrefix) + translate
 
     await chrome.windows.create({
-      width: 800,
+      width: 1000,
       height: 600,
       top: 150,
       left: 150,
