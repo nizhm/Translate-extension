@@ -33,6 +33,14 @@ const initTranslate = () => {
         dicPrefix:  'https://fanyi.baidu.com/?aldtype=85#en/zh/',
         paragraphTranslatePrefix: 'https://fanyi.baidu.com/?aldtype=23#en/zh/'
       }
+    ],
+    [
+      'Translate_v1_google',
+      {
+        dicType: 'google',
+        dicPrefix:  'https://translate.google.com/?hl=en&sl=auto&tl=zh-CN&op=translate&text=',
+        paragraphTranslatePrefix: 'https://translate.google.com/?hl=en&sl=auto&tl=zh-CN&op=translate&text='
+      }
     ]
   ])
 
