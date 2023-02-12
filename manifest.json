@@ -4,7 +4,8 @@
   "version": "1.0",
   "description": "A browser extension for translating word and paragraph",
   "permissions": [
-    "contextMenus"
+    "contextMenus",
+    "tabs"
   ],
   "icons": {
     "16": "images/main_icon.png",
