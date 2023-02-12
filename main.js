@@ -78,7 +78,7 @@ const initTranslate = () => {
     await chrome.windows.create({
       width: 1000,
       height: 600,
-      top: 150,
+      top: 100,
       left: 150,
       type: 'popup',
       url
