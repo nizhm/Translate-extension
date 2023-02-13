@@ -14,7 +14,7 @@ const initTranslate = () => {
       'Translate_v1_bridge',
       {
         dicType: 'bridge',
-        dicPrefix: 'https://dictionary.cambridge.org/dictionary/english-chinese-traditional/',
+        dicPrefix: 'https://dictionary.cambridge.org/dictionary/english-chinese-simplified/',
         paragraphTranslatePrefix: 'https://fanyi.baidu.com/?aldtype=23#en/zh/'
       }
     ],
